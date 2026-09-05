@@ -10,3 +10,5 @@ env/
 data/mock_lst.tif
 data/city_boundaries.geojson
 *.png
+
+#not what you think 
