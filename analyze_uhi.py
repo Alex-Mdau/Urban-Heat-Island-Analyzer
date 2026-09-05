@@ -24,7 +24,7 @@ def generate_mock_data():
     
     print("Generating mock Land Surface Temperature (LST) data...")
     
-    # 1. Create Mock LST Raster (Simulate a cool rural area and a hot urban center)
+    # 1. Create Mock LST Raster (Simulate a cool rural area and a hot urban center for real data change the function def generate_mock_data)
     
     # Create a base temperature array (Rural: 25C)
     lst_array = np.ones((RASTER_SIZE, RASTER_SIZE), dtype=rasterio.float32) * 298.15 # 25C in Kelvin
